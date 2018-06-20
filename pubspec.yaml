@@ -1,0 +1,14 @@
+name: language_tutorial
+description: An absolute bare-bones web app.
+# version: 1.0.0
+#homepage: https://www.example.com
+#author: tensor-programming <email@example.com>
+
+environment:
+  sdk: '>=2.0.0-dev.60.0 <2.0.0'
+
+dependencies:
+  http_server: any
+  
+dev_dependencies:
+  build_web_compilers: ^0.4.0
